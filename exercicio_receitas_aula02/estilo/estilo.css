@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Upright:wght@300&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nome{
+    font-family: 'Righteous', cursive;
+}
+.frase{
+    font-family: 'Cormorant Upright', serif;
+    font-size: 28px;
+}
+.underline{
+    text-decoration: underline;
+}
+body{
+    overflow: hidden;
+    font-size: 100%;
+    background: linear-gradient(246.82deg, #5ABEB8 1.77%, #000000 104.57%);
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    height:100%;
+    width: 100%;
+}
+h1{
+    font-size:64px;
+}
+.box1{
+    width: 492px;
+    height: 250px;
+    margin-top: 50px;
+    margin-right: 734px;
+    margin-bottom: 27px;
+    margin-left: 110px;
+    color: aliceblue;
+    align-items: center;
+}
+.imagem{
+    position: absolute;
+    width: 570px;
+    height: 310px;
+    
+    margin-right: 660px;
+    margin-bottom: 79px;
+    margin-left: 75px;
+}
+h2{
+    font-size: 38px;
+    color: aliceblue;
+}
+.box2{
+    width: 391px;
+    height: 580px;
+    
+    backdrop-filter: blur(10px);
+    float: right;
+    margin-top: -200px;
+    margin-right: 210px;
+    margin-bottom: px;
+    margin-left: 926px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    margin-right: 160px;
+}
+.links{
+    font-family: "Verdana", sans-serif;
+    font-size: 22px;
+    color: aliceblue;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+}
+a:hover {text-decoration: underline;
+	color:rgb(0, 0, 0);
+	font-size:250%;
+}
